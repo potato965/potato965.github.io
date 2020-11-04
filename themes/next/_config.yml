@@ -19,16 +19,16 @@ minify: false
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
 custom_file_path:
-  # head: source/_data/head.njk
-  # header: source/_data/header.njk
-  # sidebar: source/_data/sidebar.njk
-  # postMeta: source/_data/post-meta.njk
-  # postBodyEnd: source/_data/post-body-end.njk
-  # footer: source/_data/footer.njk
-  # bodyEnd: source/_data/body-end.njk
-  # variable: source/_data/variables.styl
-  # mixin: source/_data/mixins.styl
-  # style: source/_data/styles.styl
+  head: source/_data/head.njk
+  #header: source/_data/header.njk
+  sidebar: source/_data/sidebar.njk
+  #postMeta: source/_data/post-meta.njk
+  #postBodyEnd: source/_data/post-body-end.njk
+  #footer: source/_data/footer.njk
+  #bodyEnd: source/_data/body-end.njk
+  #variable: source/_data/variables.styl
+  #mixin: source/_data/mixins.styl
+  #style: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -36,10 +36,10 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-# scheme: Mist
-# scheme: Pisces
-# scheme: Gemini
+# scheme: Muse
+#scheme: Mist
+#scheme: Pisces
+scheme: Gemini
 
 # Dark Mode
 darkmode: false
@@ -85,14 +85,14 @@ menu:
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
-  schedule: /schedule/ || fa fa-calendar
-  sitemap: /sitemap.xml || fa fa-sitemap
-  commonweal: /404/ || fa fa-heartbeat
+  #schedule: /schedule/ || fa fa-calendar
+  #sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: true
+  badges: false
 
 
 # ---------------------------------------------------------------
@@ -102,8 +102,8 @@ menu_settings:
 
 sidebar:
   # Sidebar Position.
-  # position: left
-  position: right
+  position: left
+  #position: right
 
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320
@@ -139,11 +139,11 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/vitalpig/vitalpig.github.io || fab fa-github
-  E-Mail: mailto:yourname@gmail.com || fa fa-envelope
-  Weibo: https://weibo.com/yourname || fab fa-weibo
+  GitHub: https://github.com/vitalpig || fab fa-github
+  E-Mail: mailto:928910006@qq.com || fa fa-envelope
+  # Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
-  #Twitter: https://twitter.com/yourname || fab fa-twitter
+  # Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
@@ -152,7 +152,7 @@ social:
 
 social_icons:
   enable: true
-  icons_only: true
+  icons_only: false
   transition: false
 
 # Blog rolls
@@ -163,7 +163,7 @@ links_settings:
   layout: block
 
 links:
-  Title: https://example.com
+  米米的博客: https://zhangshuqiao.org/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -174,7 +174,7 @@ toc:
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: false
+  expand_all: true
   # Maximum heading depth of generated toc.
   max_depth: 6
 
@@ -251,8 +251,8 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
-  separated_meta: true
-  item_text_total: true
+  separated_meta: false
+  item_text_total: false
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: true
@@ -261,42 +261,42 @@ tag_icon: true
 # Front-matter variable (unsupport animation).
 reward_settings:
   # If true, a donate button will be displayed in every article by default.
-  enable: false
-  animation: true
-  # comment: Buy me a coffee
+  enable: true
+  animation: false
+  comment: Buy me a coffee
 
 reward:
-  # wechatpay: /images/wechatpay.png
-  # alipay: /images/alipay.png
-  # paypal: /images/paypal.png
-  # bitcoin: /images/bitcoin.png
+  #wechatpay: /images/wechatpay.png
+  #alipay: /images/alipay.png
+  #paypal: /images/paypal.png
+  #bitcoin: /images/bitcoin.png
 
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
-  #Twitter: https://twitter.com/username || fab fa-twitter
-  #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-  #RSS: /atom.xml || fa fa-rss
+  Twitter: https://twitter.com/username || fab fa-twitter
+  Telegram: https://t.me/channel_name || fab fa-telegram
+  WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
 related_posts:
   enable: true
-  title: # Custom header, leave empty to use the default one
-  display_in_home: true
+  title:  Custom header, leave empty to use the default one
+  display_in_home: false
   params:
     maxCount: 5
-    #PPMixingRate: 0.0
-    #isDate: false
-    #isImage: false
-    #isExcerpt: false
+    PPMixingRate: 0.0
+    isDate: false
+    isImage: false
+    isExcerpt: false
 
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
   enable: true
-  url: "https://github.com/vitalpig/vitalpig.github.io/edit/blog/source/" # Link for view source
+  url: https://github.com/vitalpig/vitalpig.github.io/edit/blog/source/ # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
 
 # Show previous post and next post in post footer if exists
@@ -363,7 +363,7 @@ codeblock:
     dark: prism-dark
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Available values: default | flat | mac
     style:
 
@@ -376,7 +376,7 @@ back2top:
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: top | bottom
   position: top
   color: "#37c6c0"
@@ -456,14 +456,14 @@ font:
 # ---------------------------------------------------------------
 
 # Disable Baidu transformation on mobile devices.
-disable_baidu_transformation: false
+disable_baidu_transformation: true
 
 # If true, site-subtitle will be added to index page.
 # Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
-index_with_subtitle: false
+index_with_subtitle: true
 
 # Automatically add external URL with Base64 encrypt & decrypt.
-exturl: false
+exturl: true
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
@@ -732,16 +732,22 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/next-theme/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
   # Show top n results per article, show all results by setting to -1
   top_n_per_article: 1
   # Unescape html strings to the readable one.
-  unescape: false
+  unescape: true
   # Preload the search data when the page loads.
-  preload: false
+  preload: true
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
 
 # Swiftype Search API Key
 swiftype_key:
@@ -798,7 +804,7 @@ tabs:
 # So, you have to install the dependency of pdf.js if you want to use pdf tag and make it available to all browsers.
 # Dependencies: https://github.com/next-theme/theme-next-pdf
 pdf:
-  enable: false
+  enable: true
   # Default height
   height: 500px
 
@@ -936,8 +942,3 @@ vendors:
 
   # Canvas ribbon
   canvas_ribbon:
-
-# Assets
-css: css
-js: js
-images: images

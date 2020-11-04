@@ -19,20 +19,10 @@
   padding-bottom: $content-padding-bottom;
 }
 
+.post-block:first-of-type {
+  padding-top: $posts-first-padding;
 
-.post-block{
-  background: white;
-  padding:40px;
-  margin-top:12px;
-  border-radius: initial;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
-}
-
-
-.main{
-  background: #eee;
-}
-
-.post-eof{
-  display: none;
+  +mobile() {
+    padding-top: $posts-first-padding-mobile;
+  }
 }

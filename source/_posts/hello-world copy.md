@@ -6,7 +6,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 ## Quick Start
 
 ### Create a new post
-
+{% pdf http://localhost:4000/2020/11/03/hello-world%20copy/%E7%BA%A2%E5%AE%9D%E4%B9%A6%E9%98%85%E8%AF%BB%E8%B7%AF%E7%BA%BF%E5%9B%BE.pdf 600px %}
 ``` bash
 $ hexo new "My New Post"
 ```
