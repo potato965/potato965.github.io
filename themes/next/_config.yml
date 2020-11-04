@@ -139,7 +139,7 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/vitalpig || fab fa-github
+  GitHub: https://github.com/potato965 || fab fa-github
   E-Mail: mailto:928910006@qq.com || fa fa-envelope
   # Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
@@ -241,7 +241,7 @@ read_more_btn: true
 
 # Post meta display settings
 post_meta:
-  item_text: true
+  item_text: false
   created_at: true
   updated_at:
     enable: true
@@ -253,6 +253,7 @@ post_meta:
 symbols_count_time:
   separated_meta: false
   item_text_total: false
+  total_symbols: false
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: true
@@ -262,12 +263,12 @@ tag_icon: true
 reward_settings:
   # If true, a donate button will be displayed in every article by default.
   enable: true
-  animation: false
-  comment: Buy me a coffee
+  animation: true
+  comment: 如果文章对您有帮助，就请站长喝杯咖啡吧 ´◡`
 
 reward:
-  #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
+  微信支付: /images/wechatpay.png
+  alipay: /images/alipay.jpg
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 
@@ -296,7 +297,7 @@ related_posts:
 # Easily browse and edit blog source code online.
 post_edit:
   enable: true
-  url: https://github.com/vitalpig/vitalpig.github.io/edit/blog/source/ # Link for view source
+  url: https://github.com/potato965/potato965.github.io/edit/blog/source/ # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
 
 # Show previous post and next post in post footer if exists
@@ -394,7 +395,7 @@ bookmark:
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
   enable: true
-  permalink: https://github.com/vitalpig
+  permalink: https://github.com/potato965
   title: Follow me on GitHub
 
 

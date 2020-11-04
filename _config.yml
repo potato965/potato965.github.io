@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: VitalPig's BLOG
-subtitle: 'Blog for VitalPig'
-description: 'Blog for VitalPig'
+title: potato965's BLOG
+subtitle: 'Blog for potato965'
+description: 'Blog for potato965'
 keywords:
-author: Vitalpig
+author: potato965
 language: zh-CN
 timezone: ''
 
@@ -104,5 +104,5 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/vitalpig/vitalpig.github.io
+  repo: https://github.com/potato965/potato965.github.io
   branch: main
