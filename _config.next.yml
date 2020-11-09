@@ -244,16 +244,16 @@ post_meta:
   item_text: false
   created_at: true
   updated_at:
-    enable: true
-    another_day: true
+    enable: false
+    another_day: false
   categories: true
 
 # Post wordcount display settings
 # Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
-  separated_meta: false
+  separated_meta: true
   item_text_total: false
-  total_symbols: false
+  total_symbols: true
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: true
@@ -263,7 +263,7 @@ tag_icon: true
 reward_settings:
   # If true, a donate button will be displayed in every article by default.
   enable: true
-  animation: true
+  animation: false
   comment: 如果文章对您有帮助，就请站长喝杯咖啡吧 ´◡`
 
 reward:
