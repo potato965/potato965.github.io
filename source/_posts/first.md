@@ -7,10 +7,13 @@ title: 复盘我的前端专家长成之路
 大家可以找我聊聊南聊聊北，Scott wx： codingdream，对前端职业生涯有更多的感悟，更多的遇见、听见与看见，许多前端同学由于团队原因，个人原因，职业成长，技术方向，家庭等原因在理想与现实之间，放弃与坚守之间摇摆不停心酸硬扛..
 <!-- more -->
 正文如下
+<!-- ![图片](https://github.com/potato965/potato965.github.io/blob/blog/source/images/alipay.jpg?raw=true) -->
+<!-- <img src="https://raw.githubusercontent.com/potato965/potato965.github.io/blog/source/images/alipay.jpg" style="height:200px;"/> -->
 
 本文是第十一届 - 前端早早聊女生前端职业发展专场，也是早早聊第 73 场，来自淘宝的前端技术专家 — 珑晴 的分享（完整版含演示请看录播视频和 PPT）：
 
-
+<!-- [百度](http://baidu.com)
+<a href="www.baidu.com">百度</a> -->
 大家好，我是来自阿里巴巴的珑晴，感谢 Scott 的邀请，非常荣幸能在女生前端专场给大家分享我这几年的技术成长经历。
 分享大纲
 
